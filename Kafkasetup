@@ -1,0 +1,19 @@
+if you get error name is too longs ..just chnage the kafka folder name kafka 3.2 .1 to kafka
+create folder data folder and 
+C:\Users\13033\Desktop\softwares\kafka\data
+inside data create another 2 folders
+kafka and zookeeper
+edit zooker properties file 
+dataDir=C:/Users/13033/Desktop/softwares/kafka/data/zookeeper
+and server.properties as 
+# A comma separated list of directories under which to store log files
+log.dirs=C:/Users/13033/Desktop/softwares/kafka/data/kafka
+
+now create two cmd file s
+cd C:\Users\13033\Desktop\softwares\kafka\bin\windows
+zookeeper-server-start C:\Users\13033\Desktop\softwares\kafka\config\zookeeper.properties
+
+and 
+
+cd C:\Users\13033\Desktop\softwares\kafka\bin\windows
+kafka-server-start C:\Users\13033\Desktop\softwares\kafka\config\server.properties
