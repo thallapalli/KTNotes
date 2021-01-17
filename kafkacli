@@ -1,0 +1,5 @@
+cd C:\Users\13033\Desktop\softwares\kafka\bin\windows>
+C:\Users\13033\Desktop\softwares\kafka\bin\windows>kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1
+
+=# list topics
+kafka-topics --zookeeper 127.0.0.1:2181 --list
